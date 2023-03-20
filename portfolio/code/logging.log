@@ -1,0 +1,179 @@
+INFO: 2023-01-24 17:31:47,146 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO: 2023-01-24 17:31:47,146 [33mPress CTRL+C to quit[0m
+INFO: 2023-01-24 17:31:47,146  * Restarting with stat
+WARNING: 2023-01-24 17:31:47,329  * Debugger is active!
+INFO: 2023-01-24 17:31:47,329  * Debugger PIN: 122-069-592
+INFO: 2023-01-24 17:31:55,442 127.0.0.1 - - [24/Jan/2023 17:31:55] "GET / HTTP/1.1" 200 -
+INFO: 2023-01-24 17:31:55,649 127.0.0.1 - - [24/Jan/2023 17:31:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+WARNING: 2023-01-24 17:32:29,617 The combination of the credentials with the email 'melwin@gmail.com' could not be found in the database
+INFO: 2023-01-24 17:32:29,618 127.0.0.1 - - [24/Jan/2023 17:32:29] "POST /login HTTP/1.1" 200 -
+WARNING: 2023-01-24 17:32:36,742 The combination of the credentials with the email 'melwin@gmail.com' could not be found in the database
+INFO: 2023-01-24 17:32:36,742 127.0.0.1 - - [24/Jan/2023 17:32:36] "POST /login HTTP/1.1" 200 -
+WARNING: 2023-01-24 17:33:18,093 The combination of the credentials with the email 'melwin@gmail.com' could not be found in the database
+INFO: 2023-01-24 17:33:18,094 127.0.0.1 - - [24/Jan/2023 17:33:18] "POST /login HTTP/1.1" 200 -
+INFO: 2023-01-24 17:33:24,708 User 'melwin@gmail.com' was successfully queried in the database
+INFO: 2023-01-24 17:33:24,710 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-24 17:33:24,711 A list of books was successfully requested from the database
+INFO: 2023-01-24 17:33:24,716 127.0.0.1 - - [24/Jan/2023 17:33:24] "POST /login HTTP/1.1" 200 -
+INFO: 2023-01-24 18:34:11,605 127.0.0.1 - - [24/Jan/2023 18:34:11] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+INFO: 2023-01-24 18:34:11,657 127.0.0.1 - - [24/Jan/2023 18:34:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO: 2023-01-24 18:34:16,512 127.0.0.1 - - [24/Jan/2023 18:34:16] "GET / HTTP/1.1" 200 -
+INFO: 2023-01-24 18:34:20,011 127.0.0.1 - - [24/Jan/2023 18:34:20] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+INFO: 2023-01-24 18:34:22,895 127.0.0.1 - - [24/Jan/2023 18:34:22] "GET / HTTP/1.1" 200 -
+INFO: 2023-01-24 18:34:57,276 User 'melwin@gmail.com' was successfully queried in the database
+INFO: 2023-01-24 18:34:57,276 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-24 18:34:57,276 A list of books was successfully requested from the database
+INFO: 2023-01-24 18:34:57,277 127.0.0.1 - - [24/Jan/2023 18:34:57] "POST /login HTTP/1.1" 200 -
+INFO: 2023-01-24 18:39:22,007 127.0.0.1 - - [24/Jan/2023 18:39:22] "GET /logoutuser?logout= HTTP/1.1" 200 -
+INFO: 2023-01-24 18:42:08,424 User 'melwin@gmail.com' was successfully queried in the database
+INFO: 2023-01-24 18:42:08,425 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-24 18:42:08,425 A list of books was successfully requested from the database
+INFO: 2023-01-24 18:42:08,428 127.0.0.1 - - [24/Jan/2023 18:42:08] "POST /login HTTP/1.1" 200 -
+INFO: 2023-01-24 18:42:09,526 127.0.0.1 - - [24/Jan/2023 18:42:09] "GET /logoutuser?logout= HTTP/1.1" 200 -
+INFO: 2023-01-24 18:42:10,441 127.0.0.1 - - [24/Jan/2023 18:42:10] "GET /showCreateUser HTTP/1.1" 200 -
+INFO: 2023-01-24 18:42:23,364 The user 'asdf@asdf.asdf' was successfully added to the database
+INFO: 2023-01-24 18:42:23,365 User 'asdf@asdf.asdf' was successfully queried in the database
+INFO: 2023-01-24 18:42:23,365 127.0.0.1 - - [24/Jan/2023 18:42:23] "POST /createUser HTTP/1.1" 200 -
+INFO: 2023-01-24 18:42:28,557 User 'asdf@asdf.asdf' was successfully queried in the database
+INFO: 2023-01-24 18:42:28,557 A list of books for the user with the userid '2' was successfully requested from the database
+INFO: 2023-01-24 18:42:28,558 A list of books was successfully requested from the database
+INFO: 2023-01-24 18:42:28,558 127.0.0.1 - - [24/Jan/2023 18:42:28] "POST /login HTTP/1.1" 200 -
+INFO: 2023-01-24 18:42:35,178 127.0.0.1 - - [24/Jan/2023 18:42:35] "GET /logoutuser?logout= HTTP/1.1" 200 -
+INFO: 2023-01-24 18:59:02,208  * Detected change in '/home/melwin/PycharmProjects/webprog3_portfolio/portfolio/controller/controllers.py', reloading
+INFO: 2023-01-24 18:59:02,254  * Restarting with stat
+WARNING: 2023-01-24 18:59:02,445  * Debugger is active!
+INFO: 2023-01-24 18:59:02,445  * Debugger PIN: 122-069-592
+INFO: 2023-01-24 19:05:17,887 127.0.0.1 - - [24/Jan/2023 19:05:17] "GET /showCreateUser HTTP/1.1" 200 -
+INFO: 2023-01-24 19:05:52,471 127.0.0.1 - - [24/Jan/2023 19:05:52] "GET /logoutuser HTTP/1.1" 200 -
+INFO: 2023-01-24 19:05:56,882 User 'melwin@gmail.com' was successfully queried in the database
+INFO: 2023-01-24 19:05:56,883 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-24 19:05:56,883 A list of books was successfully requested from the database
+INFO: 2023-01-24 19:05:56,887 127.0.0.1 - - [24/Jan/2023 19:05:56] "POST /login HTTP/1.1" 200 -
+INFO: 2023-01-24 19:32:56,397 127.0.0.1 - - [24/Jan/2023 19:32:56] "GET /logoutuser?logout= HTTP/1.1" 200 -
+INFO: 2023-01-24 20:25:08,239 127.0.0.1 - - [24/Jan/2023 20:25:08] "GET /showCreateUser HTTP/1.1" 200 -
+INFO: 2023-01-24 20:26:20,727 127.0.0.1 - - [24/Jan/2023 20:26:20] "GET /showCreateUser HTTP/1.1" 200 -
+INFO: 2023-01-24 20:26:21,740 127.0.0.1 - - [24/Jan/2023 20:26:21] "GET / HTTP/1.1" 200 -
+INFO: 2023-01-24 20:26:22,775 127.0.0.1 - - [24/Jan/2023 20:26:22] "GET /showCreateUser HTTP/1.1" 200 -
+INFO: 2023-01-24 20:26:23,391 127.0.0.1 - - [24/Jan/2023 20:26:23] "GET / HTTP/1.1" 200 -
+INFO: 2023-01-24 20:26:24,077 127.0.0.1 - - [24/Jan/2023 20:26:24] "GET /showCreateUser HTTP/1.1" 200 -
+INFO: 2023-01-24 20:26:24,658 127.0.0.1 - - [24/Jan/2023 20:26:24] "GET / HTTP/1.1" 200 -
+INFO: 2023-01-24 20:26:40,287 127.0.0.1 - - [24/Jan/2023 20:26:40] "GET /showCreateUser HTTP/1.1" 200 -
+INFO: 2023-01-24 20:27:37,237 127.0.0.1 - - [24/Jan/2023 20:27:37] "GET / HTTP/1.1" 200 -
+INFO: 2023-01-24 20:28:15,576 User 'melwin@gmail.com' was successfully queried in the database
+INFO: 2023-01-24 20:28:15,577 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-24 20:28:15,577 A list of books was successfully requested from the database
+INFO: 2023-01-24 20:28:15,578 127.0.0.1 - - [24/Jan/2023 20:28:15] "POST /login HTTP/1.1" 200 -
+INFO: 2023-01-24 20:34:49,257 The book with bookid '6' was successfully queried in the database
+INFO: 2023-01-24 20:34:49,259 The status of the book with the bookid '6' was successfully changed in 'reserviert'
+INFO: 2023-01-24 20:34:49,261 The book with the bookid '6' was successfully reserved by the user with the userid '1'
+INFO: 2023-01-24 20:34:49,261 127.0.0.1 - - [24/Jan/2023 20:34:49] "[32mPOST /borrowbook HTTP/1.1[0m" 302 -
+INFO: 2023-01-24 20:34:49,266 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-24 20:34:49,267 The book with bookid '6' was successfully queried in the database
+INFO: 2023-01-24 20:34:49,267 A list of books was successfully requested from the database
+INFO: 2023-01-24 20:34:49,268 127.0.0.1 - - [24/Jan/2023 20:34:49] "GET /showhome HTTP/1.1" 200 -
+INFO: 2023-01-25 00:55:33,194 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO: 2023-01-25 00:55:33,194 [33mPress CTRL+C to quit[0m
+INFO: 2023-01-25 00:55:33,194  * Restarting with stat
+WARNING: 2023-01-25 00:55:33,386  * Debugger is active!
+INFO: 2023-01-25 00:55:33,424  * Debugger PIN: 111-598-634
+INFO: 2023-01-25 00:55:34,325 127.0.0.1 - - [25/Jan/2023 00:55:34] "GET / HTTP/1.1" 200 -
+INFO: 2023-01-25 00:55:34,500 127.0.0.1 - - [25/Jan/2023 00:55:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO: 2023-01-25 00:57:59,558 User 'melwin@gmail.com' was successfully queried in the database
+INFO: 2023-01-25 00:57:59,559 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-25 00:57:59,560 The book with bookid '6' was successfully queried in the database
+INFO: 2023-01-25 00:57:59,560 A list of books was successfully requested from the database
+INFO: 2023-01-25 00:57:59,564 127.0.0.1 - - [25/Jan/2023 00:57:59] "POST /login HTTP/1.1" 200 -
+INFO: 2023-01-25 01:01:53,898 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO: 2023-01-25 01:01:53,898 [33mPress CTRL+C to quit[0m
+INFO: 2023-01-25 01:01:53,899  * Restarting with stat
+WARNING: 2023-01-25 01:01:54,088  * Debugger is active!
+INFO: 2023-01-25 01:01:54,088  * Debugger PIN: 111-598-634
+INFO: 2023-01-25 01:01:57,890 127.0.0.1 - - [25/Jan/2023 01:01:57] "GET /logoutuser HTTP/1.1" 200 -
+INFO: 2023-01-25 01:44:00,695 User 'melwin@gmail.com' was successfully queried in the database
+INFO: 2023-01-25 01:44:00,696 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-25 01:44:00,697 A list of books was successfully requested from the database
+INFO: 2023-01-25 01:44:00,700 127.0.0.1 - - [25/Jan/2023 01:44:00] "POST /login HTTP/1.1" 200 -
+INFO: 2023-01-25 01:44:02,470 The book with bookid '6' was successfully queried in the database
+INFO: 2023-01-25 01:44:02,472 The status of the book with the bookid '6' was successfully changed in 'reserviert'
+INFO: 2023-01-25 01:44:02,475 The book with the bookid '6' was successfully reserved by the user with the userid '1'
+INFO: 2023-01-25 01:44:02,476 127.0.0.1 - - [25/Jan/2023 01:44:02] "[32mPOST /borrowbook HTTP/1.1[0m" 302 -
+INFO: 2023-01-25 01:44:02,484 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-25 01:44:02,484 The book with bookid '6' was successfully queried in the database
+INFO: 2023-01-25 01:44:02,484 A list of books was successfully requested from the database
+INFO: 2023-01-25 01:44:02,485 127.0.0.1 - - [25/Jan/2023 01:44:02] "GET /showhome HTTP/1.1" 200 -
+INFO: 2023-01-25 01:52:47,941 127.0.0.1 - - [25/Jan/2023 01:52:47] "GET /logoutuser?logout= HTTP/1.1" 200 -
+INFO: 2023-01-25 01:57:50,930 127.0.0.1 - - [25/Jan/2023 01:57:50] "GET /showCreateUser HTTP/1.1" 200 -
+INFO: 2023-01-25 01:58:07,948 127.0.0.1 - - [25/Jan/2023 01:58:07] "GET / HTTP/1.1" 200 -
+INFO: 2023-01-25 01:59:23,031 127.0.0.1 - - [25/Jan/2023 01:59:23] "GET /showCreateUser HTTP/1.1" 200 -
+INFO: 2023-01-25 01:59:26,344 127.0.0.1 - - [25/Jan/2023 01:59:26] "GET / HTTP/1.1" 200 -
+INFO: 2023-01-25 02:14:02,888  * Detected change in '/home/melwin/PycharmProjects/webprog3_portfolio/portfolio/controller/controllers.py', reloading
+INFO: 2023-01-25 02:14:02,934  * Restarting with stat
+WARNING: 2023-01-25 02:14:03,130  * Debugger is active!
+INFO: 2023-01-25 02:14:03,130  * Debugger PIN: 111-598-634
+INFO: 2023-01-25 02:44:09,797 User 'melwin@gmail.com' was successfully queried in the database
+INFO: 2023-01-25 02:44:09,798 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-25 02:44:09,798 A list of books was successfully requested from the database
+INFO: 2023-01-25 02:44:09,803 127.0.0.1 - - [25/Jan/2023 02:44:09] "POST /login HTTP/1.1" 200 -
+INFO: 2023-01-25 02:44:10,876 The book with bookid '6' was successfully queried in the database
+INFO: 2023-01-25 02:44:10,878 The status of the book with the bookid '6' was successfully changed in 'reserviert'
+INFO: 2023-01-25 02:44:10,882 The book with the bookid '6' was successfully reserved by the user with the userid '1'
+INFO: 2023-01-25 02:44:10,882 127.0.0.1 - - [25/Jan/2023 02:44:10] "[32mPOST /borrowbook HTTP/1.1[0m" 302 -
+INFO: 2023-01-25 02:44:10,888 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-25 02:44:10,888 The book with bookid '6' was successfully queried in the database
+INFO: 2023-01-25 02:44:10,889 A list of books was successfully requested from the database
+INFO: 2023-01-25 02:44:10,889 127.0.0.1 - - [25/Jan/2023 02:44:10] "GET /showhome HTTP/1.1" 200 -
+INFO: 2023-01-25 03:00:08,294 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-25 03:00:08,294 A list of books was successfully requested from the database
+INFO: 2023-01-25 03:00:08,295 127.0.0.1 - - [25/Jan/2023 03:00:08] "GET /showhome HTTP/1.1" 200 -
+INFO: 2023-01-25 03:28:12,745 The book with bookid '6' was successfully queried in the database
+INFO: 2023-01-25 03:28:12,747 The status of the book with the bookid '6' was successfully changed in 'reserviert'
+INFO: 2023-01-25 03:28:12,748 The book with the bookid '6' was successfully reserved by the user with the userid '1'
+INFO: 2023-01-25 03:28:12,748 127.0.0.1 - - [25/Jan/2023 03:28:12] "[32mPOST /borrowbook HTTP/1.1[0m" 302 -
+INFO: 2023-01-25 03:28:12,755 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-25 03:28:12,756 The book with bookid '6' was successfully queried in the database
+INFO: 2023-01-25 03:28:12,756 A list of books was successfully requested from the database
+INFO: 2023-01-25 03:28:12,756 127.0.0.1 - - [25/Jan/2023 03:28:12] "GET /showhome HTTP/1.1" 200 -
+INFO: 2023-01-25 03:44:26,551 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO: 2023-01-25 03:44:26,551 [33mPress CTRL+C to quit[0m
+INFO: 2023-01-25 03:44:26,551  * Restarting with stat
+WARNING: 2023-01-25 03:44:26,736  * Debugger is active!
+INFO: 2023-01-25 03:44:26,737  * Debugger PIN: 111-598-634
+INFO: 2023-01-25 03:44:27,859 127.0.0.1 - - [25/Jan/2023 03:44:27] "GET /logoutuser?logout= HTTP/1.1" 200 -
+INFO: 2023-01-25 03:44:35,359 User 'melwin@gmail.com' was successfully queried in the database
+INFO: 2023-01-25 03:44:35,359 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-25 03:44:35,361 The book with bookid '6' was successfully queried in the database
+INFO: 2023-01-25 03:44:35,361 A list of books was successfully requested from the database
+INFO: 2023-01-25 03:44:35,364 127.0.0.1 - - [25/Jan/2023 03:44:35] "POST /login HTTP/1.1" 200 -
+INFO: 2023-01-25 03:44:36,404 The book with bookid '1' was successfully queried in the database
+INFO: 2023-01-25 03:44:36,405 The status of the book with the bookid '1' was successfully changed in 'reserviert'
+INFO: 2023-01-25 03:44:36,408 The book with the bookid '1' was successfully reserved by the user with the userid '1'
+INFO: 2023-01-25 03:44:36,409 127.0.0.1 - - [25/Jan/2023 03:44:36] "[32mPOST /borrowbook HTTP/1.1[0m" 302 -
+INFO: 2023-01-25 03:44:36,412 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-25 03:44:36,412 The book with bookid '6' was successfully queried in the database
+INFO: 2023-01-25 03:44:36,412 The book with bookid '1' was successfully queried in the database
+INFO: 2023-01-25 03:44:36,413 A list of books was successfully requested from the database
+INFO: 2023-01-25 03:44:36,413 127.0.0.1 - - [25/Jan/2023 03:44:36] "GET /showhome HTTP/1.1" 200 -
+INFO: 2023-01-25 03:44:36,970 The book with bookid '2' was successfully queried in the database
+INFO: 2023-01-25 03:44:36,971 The status of the book with the bookid '2' was successfully changed in 'reserviert'
+INFO: 2023-01-25 03:44:36,973 The book with the bookid '2' was successfully reserved by the user with the userid '1'
+INFO: 2023-01-25 03:44:36,973 127.0.0.1 - - [25/Jan/2023 03:44:36] "[32mPOST /borrowbook HTTP/1.1[0m" 302 -
+INFO: 2023-01-25 03:44:36,977 A list of books for the user with the userid '1' was successfully requested from the database
+INFO: 2023-01-25 03:44:36,977 The book with bookid '6' was successfully queried in the database
+INFO: 2023-01-25 03:44:36,977 The book with bookid '1' was successfully queried in the database
+INFO: 2023-01-25 03:44:36,977 The book with bookid '2' was successfully queried in the database
+INFO: 2023-01-25 03:44:36,978 A list of books was successfully requested from the database
+INFO: 2023-01-25 03:44:36,978 127.0.0.1 - - [25/Jan/2023 03:44:36] "GET /showhome HTTP/1.1" 200 -
+INFO: 2023-01-25 03:44:38,518 127.0.0.1 - - [25/Jan/2023 03:44:38] "GET /logoutuser?logout= HTTP/1.1" 200 -
+INFO: 2023-01-25 03:44:42,624 127.0.0.1 - - [25/Jan/2023 03:44:42] "GET /showCreateUser HTTP/1.1" 200 -
+INFO: 2023-01-25 03:44:50,724 The user '123@123.de' was successfully added to the database
+INFO: 2023-01-25 03:44:50,724 User '123@123.de' was successfully queried in the database
+INFO: 2023-01-25 03:44:50,725 127.0.0.1 - - [25/Jan/2023 03:44:50] "POST /createUser HTTP/1.1" 200 -
+INFO: 2023-01-25 03:44:54,770 User '123@123.de' was successfully queried in the database
+INFO: 2023-01-25 03:44:54,770 A list of books for the user with the userid '3' was successfully requested from the database
+INFO: 2023-01-25 03:44:54,770 A list of books was successfully requested from the database
+INFO: 2023-01-25 03:44:54,771 127.0.0.1 - - [25/Jan/2023 03:44:54] "POST /login HTTP/1.1" 200 -
+INFO: 2023-01-25 03:44:58,234 127.0.0.1 - - [25/Jan/2023 03:44:58] "GET /logoutuser?logout= HTTP/1.1" 200 -

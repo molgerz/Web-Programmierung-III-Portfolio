@@ -1,0 +1,82 @@
+{% extends "header.html" %}
+
+
+{% block title %}
+    FHWS
+{% endblock %}
+
+
+{% block content %}
+<div class="container-fluid">
+<form action="/logoutuser">
+    <button id="logout" name="logout" type="submit" class="btn btn-link">Logout</button>
+    <span class="badge bg-success">Willkommen {{user["firstname"]}} {{user["lastname"]}}</span>
+</form>
+</div>
+<br><br>
+
+<div class="container">
+<h2>Übersicht</h2>
+
+<h3>Ihre reservierten Bücher:</h3>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Titel</th>
+      <th scope="col">Autor</th>
+      <th scope="col">ISBN</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for book in list_of_all_books_for_user %}
+    <tr>
+      <th scope="row">{{book.id}}</th>
+      <td>{{book.title}}</td>
+      <td>{{book.author}}</td>
+      <td>{{book.isbn}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<br><br>
+
+<h3>Alle Bücher:</h3>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Titel</th>
+      <th scope="col">Autor</th>
+      <th scope="col">ISBN</th>
+      <th scope="col">Status</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for book in list_of_all_books %}
+    <tr>
+      <th scope="row">{{book.id}}</th>
+      <td>{{book.title}}</td>
+      <td>{{book.author}}</td>
+      <td>{{book.isbn}}</td>
+      <td>{{book.status}}</td>
+      <td>
+        <form action="/borrowbook" method="post">
+          <input type="hidden" name="bookid" id="bookid" value="{{ book.id }}">
+
+          {% if book.status == "verfügbar" %}
+          <button class="btn btn-primary">reservieren</button>
+          {% elif book.status == "reserviert" %}
+          <button type="button" class="btn btn-secondary">bereits reserviert</button>
+          {% endif %}
+        </form>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "header.html" %}
+
+{% block title %}
+    Neuen Account anlegen
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1>Account erstellen</h1>
+  <form method="post" action="/createUser">
+    <label for="email">Vorname:</label>
+    <input class="form-control" name="firstname" id="firstname" placeholder="Ihr Vorname" pattern="[a-zA-Z|äöüÄÖÜß]+" type="text" required="required" maxlength="20" minlength="3">
+    <label for="email">Nachname:</label>
+    <input class="form-control" name="lastname" id="lastname" placeholder="Ihr Nachname" pattern="[a-zA-Z|äöüÄÖÜß]+" type="text" required="required" maxlength="20" minlength="3">
+    <label for="email">Email:</label>
+    <input class="form-control" name="email" id="email" placeholder="Ihre Emailadresse" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="email" required="required" maxlength="50" minlength="3">
+    <label for="password">Passwort</label>
+    <input class="form-control" name="password" id="password" placeholder="Ihr Passwort" type="password" required="required" maxlength="50" minlength="3">
+    <button class="btn btn-primary" type="submit" style="margin-top: 5px; margin-bottom: 5px">Account erstellen</button>
+  </form>
+
+  <form action="/">
+    <button type="submit" class="btn btn-danger">zurück</button>
+  </form>
+</div>
+{% endblock %}

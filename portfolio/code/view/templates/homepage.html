@@ -1,0 +1,25 @@
+{% extends "header.html" %}
+
+
+{% block title %}
+    Büchereiportal
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+<h1>Willkomen auf dem Büchereiportal der FHWS</h1>
+
+  <form method="post" action="/login">
+    <label for="email">Email:</label>
+    <input class="form-control" name="email" id="email" placeholder="Ihre Emailadresse" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="email" required="required" maxlength="50" minlength="3">
+    <label for="password">Passwort</label>
+    <input class="form-control" name="password" id="password" placeholder="Ihr Passwort" type="password" required="required" maxlength="50" minlength="3">
+    <button class="btn btn-primary" type="submit" style="margin-top: 5px; margin-bottom: 5px">Login</button>
+  </form>
+
+  <form action="/showCreateUser">
+    <button type="submit" class="btn btn-success">Neuen Account anlegen</button>
+  </form>
+</div>
+{% endblock %}
